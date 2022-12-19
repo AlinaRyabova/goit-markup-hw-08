@@ -1,0 +1,142 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(67, 60, 60, 0.479);
+    transition: opacity 250ms linear, visibility 250ms linear;
+    
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+    border-radius: 50%;
+    width: 528px;
+    min-height: 581px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms linear, transform 250ms linear;
+    padding: 40px;
+}
+.modal-close{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #0000001A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.is-hidden{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scaleY(0) rotate(-180deg);
+    border-radius: 50%;
+}
+.modal-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+}
+.modal-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    
+    padding-left: 42px;
+    color: #757575;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:required {
+    border-color: #757575;
+}
+.modal-input:focus,
+.modal-input:hover {
+    border-color: #2196F3;
+    outline: transparent;
+}
+.modal-input:focus + svg,
+.modal-input:hover + svg{
+    fill: #2196F3;
+
+}
+.modal-input-group label{
+    color: #757575;
+    display: block;
+    margin-bottom: 10px;
+}
+.modal-text{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #757575;
+    resize: none;
+    padding: 12px 16px;
+}
+.modal-input-icon{
+    position: absolute;
+}
+.modal-input-wrapper{
+    position: relative;
+    margin-bottom: 10px;
+}
+.modal-input-icon{
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+label.modal-politic-label{
+    display: flex;
+    align-items: center;
+}
+.modal-politic-label::before{
+    content: " ";
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    margin-right: 8px;
+}
+.modal-politic-check:checked + label::before{
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url("../images/Vector.svg");
+    background-position: center;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.modal-politic-label{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.modal-link{
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2196F3;
+    padding-left: 10px;
+}
