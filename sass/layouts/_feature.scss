@@ -6,7 +6,7 @@
     background: var(--primary-header-color);
 }
 .feature__list{
-    display: flex;
+    // display: flex;
     flex-wrap: nowrap;
     gap: 30px;
 }
@@ -29,7 +29,7 @@
     margin-top: 0px;
     }
 .feature__icons{
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center; 
     background-size: contain;
@@ -37,7 +37,7 @@
     }
 .feature__cont__icons{
     height: 120px;
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center; 
     background: #F5F4FA;
