@@ -428,7 +428,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .feature__list__items {
-    width: calc((100% - 20px) / 2);
+    width: calc((100% - 60px) / 2);
     margin: 15px;
   }
 }
