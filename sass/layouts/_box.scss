@@ -7,6 +7,16 @@
     margin-top: 0px;
     background: var(--primary-header-color);
     padding-top: 0px;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+        display: none;  
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: none;  
+    }
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
 }
 .box__list{
     display: flex;
@@ -14,7 +24,6 @@
 
 .box__list__items:not(:last-child){
     margin-right: 30px;
-
 }
 .box__title {
     font-style: normal;
