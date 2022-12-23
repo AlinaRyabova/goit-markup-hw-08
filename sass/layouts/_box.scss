@@ -20,6 +20,8 @@
 }
 .box__list{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box__list__items:not(:last-child){
