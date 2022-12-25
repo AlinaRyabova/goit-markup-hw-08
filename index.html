@@ -31,6 +31,40 @@
                 </svg>+38 096 111 11 11</a></li>
             </ul>
         </nav>
+
+        <button type="button" class="mob__menu__open js-open-menu" ><svg width="24" height="16"class="menu__open__icon"><use href="./images/icons.svg#icon-menu_24px"></use></svg></button>
+       </div>
+       <div class="mob__menu js-menu-container" >
+        <div class="container">
+        <button type="button" class="mob__menu__close js-close-menu" ><svg width="24" height="16"class="menu__close__icon"><use href="./images/icons.svg#icon-close_24px"></use></svg></button>
+<div>
+    <div class="mob-content">
+    <ul class="mob__navigation__list list">
+        <li class="mob__navigation__link"><a class="mob__navigation__text link current" href="">Студія</a></li>
+        <li class="mob__navigation__link"><a class="mob__navigation__text link" href="./portfolio.html">Портфоліо</a></li>
+        <li class="mob__navigation__link"><a class="mob__navigation__text link" href="">Контакти</a></li>
+    </ul>
+</div>
+<div class="mob-content">
+    <ul class="mob__contacts list">
+       
+        <li class="mob__contacts__list"><a class="mob__contacts__email link" href="mailto:info@devstudio.com"><svg width="16" height="12" class="contacts__icons">
+            <use href="./images/icons.svg#icon-smartphone"></use>
+        </svg>+38 096 111 11 11</a></li>
+        <li class="mob__contacts__list"><a class="mob__contacts__tell link" href="tel:+380961111111"><svg width="10" height="16" class="contacts__icons">
+            <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>info@devstudio.com</a></li>
+
+    </ul>
+</div>
+    <ul class="mob__soc list">
+        <li class="mob__soc__list"><a class="mob__soc__text link" href="">Instagram</a></li>
+        <li class="mob__soc__list"><a class="mob__soc__text link" href="">Twitter</a></li>
+        <li class="mob__soc__list"><a class="mob__soc__text link" href="">Facebook</a></li>
+        <li class="mob__soc__list"><a class="mob__soc__text link" href="">LinkedIn</a></li>
+    </ul>
+</div>
+</div>
        </div>
     </header>
      <main class="main">
@@ -113,15 +147,17 @@
         <h2 class="team__title">Наша команда</h2>
         <ul class="team__list">
             <li class="team__list__img list"> 
+        
+
 
                <picture>
-                <source srcset="..//../images/img_pc_product_1x.jpg 1x, ./images/img_pc_product_2x.jpg 2x" media="(min-width: 1200px)" sizes="(min-width: 1200px)" 1200px, 25vw>
+                <source srcset="./images/img_pc_product_1x.jpg 1x, ./images/img_pc_product_2x.jpg 2x" media="(min-width: 1200px)" sizes="(min-width: 1200px)" 1200px, 25vw>
 
-                <source srcset="..//../images/img_tab_product_1x.jpg 1x, ./images/img_tab_product_2x.jpg 2x" media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 768px)" 768px, 50vw>
+                <source srcset="./images/img_tab_product_1x.jpg 1x, ./images/img_tab_product_2x.jpg 2x" media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 768px)" 768px, 50vw>
 
-                <source srcset="..//../images/img_product_mob_1x.jpg 1x, ./images/img_product_mob_2x.jpg 2x" media="(min-width: 480px) and (max-width: 767px)" sizes="(min-width: 480px)" 480px, 100vw>
+                <source srcset="./images/img_product_mob_1x.jpg 1x, ./images/img_product_mob_2x.jpg 2x" media="(min-width: 480px) and (max-width: 767px)" sizes="(min-width: 480px)" 480px, 100vw>
 
-                <img srcset="..//../images/img_pc_product_1x.jpg, ./images/img_pc_product_2x.jpg " src="./images/img_4.jpg" alt="Product Designer">
+                <img srcset="./images/img_pc_product_1x.jpg, ./images/img_pc_product_2x.jpg " src="./images/img_pc_product_1x.jpg" alt="Product Designer">
                </picture>
 
             <div class="content">
@@ -155,7 +191,21 @@
                 </ul>
             </div>
             </li>
-            <li class="team__list__img list"><img src="./images/img_5.jpg" alt="Frontend Developer" width="270">
+            <li class="team__list__img list">
+                
+                
+                <picture>
+                    <source srcset="./images/img_pc_frontend_1x.jpg 1x, ./images/img_pc_frontend_2x.jpg 2x" media="(min-width: 1200px)" sizes="(min-width: 1200px)" 1200px, 25vw>
+    
+                    <source srcset="./images/img_tab_frontend_1x.jpg 1x, ./images/img_tab_frontend_2x.jpg 2x" media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 768px)" 768px, 50vw>
+    
+                    <source srcset="./images/img_frontend_mob_1x.jpg 1x, ./images/img_frontend_mob_2x.jpg 2x" media="(min-width: 480px) and (max-width: 767px)" sizes="(min-width: 480px)" 480px, 100vw>
+    
+                    <img srcset="./images/img_pc_frontend_1x.jpg, ./images/img_pc_frontend_2x.jpg " src="./images/img_pc_frontend_1x.jpg" alt="Marketing">
+                   </picture>
+                
+                
+            
                 <div class="content">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__work">Frontend Developer</p>
@@ -183,7 +233,18 @@
                 </ul>
             </div>
             </li>
-            <li class="team__list__img list"><img src="./images/img_6.jpg" alt="Marketing" width="270">
+            <li class="team__list__img list">
+                
+                <picture>
+                    <source srcset="./images/img_pc_marketing_1x.jpg 1x, ./images/img_pc_marketing_2x.jpg 2x" media="(min-width: 1200px)" sizes="(min-width: 1200px)" 1200px, 25vw>
+    
+                    <source srcset="./images/img_tab_marketing_1x.jpg 1x, ./images/img_tab_marketing_2x.jpg 2x" media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 768px)" 768px, 50vw>
+    
+                    <source srcset="./images/img_marketing_mob_1x.jpg 1x, ./images/img_marketing_mob_2x.jpg 2x" media="(min-width: 480px) and (max-width: 767px)" sizes="(min-width: 480px)" 480px, 100vw>
+    
+                    <img srcset="./images/img_pc_marketing_1x.jpg, ./images/img_pc_marketing_2x.jpg " src="./images/img_pc_marketing_1x.jpg" alt="Marketing">
+                   </picture>
+                
                 <div class="content">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__work">Marketing</p>
@@ -211,7 +272,19 @@
                 </ul>
             </div>
         </li>
-            <li class="team__list__img list"><img src="..//../img_pc_designer_1x.jpg" alt="UI Designer" width="270">
+            <li class="team__list__img list">
+                
+                <picture>
+                    <source srcset="./images/img_pc_designer_1x.jpg 1x, ./images/img_pc_designer_2x.jpg 2x" media="(min-width: 1200px)" sizes="(min-width: 1200px)" 1200px, 25vw>
+    
+                    <source srcset="./images/img_tab_designer_1x.jpg 1x, ./images/img_tab_designer_2x.jpg 2x" media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 768px)" 768px, 50vw>
+    
+                    <source srcset="./images/img_designer_mob_1x.jpg 1x, ./images/img_designer_mob_2x.jpg 2x" media="(min-width: 480px) and (max-width: 767px)" sizes="(min-width: 480px)" 480px, 100vw>
+    
+                    <img srcset="./images/img_pc_designer_1x.jpg 1x, ./images/img_pc_designer_1x.jpg 2x" src="./images/img_pc_designer_1x.jpg 1x, ./images/img_pc_designer_1x.jpg 2x"  alt="UI Designer">
+                   </picture>
+                
+            
                 <div class="content">
                 <h3  class="team__name">Михайло Єрмаков</h3>
                 <p class="team__work">UI Designer</p>
@@ -363,5 +436,6 @@
         </div>
         </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
