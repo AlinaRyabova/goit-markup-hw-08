@@ -98,17 +98,18 @@
 }
 
 .mob__menu__open{
-    // display: block;
     margin-left: auto;
+    margin-right: 0px;
     @media screen and (min-width: 768px){
         display: none;
     }
 }
 
-.mob__menu__open .js-open-menu{
+.js-menu-container.is-open{
     display: block;
 }
 .mob__menu {
+    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -126,17 +127,16 @@
         display: none;
     }
 }
-.mob__menu .js-menu-container{
-    display: block;
+.js-menu-container{
+    display: none;
 }
-
 
 .mob__menu__close {
     display: block;
     margin-left: auto;
     margin-right: 0px;
 }
-.mob__menu__close .js-close-menu {
+.js-menu-container.is-close {
     display: block;
 } 
 .mob__navigation__link {

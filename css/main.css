@@ -215,6 +215,7 @@ img {
 
 .mob__menu__open {
   margin-left: auto;
+  margin-right: 0px;
 }
 @media screen and (min-width: 768px) {
   .mob__menu__open {
@@ -222,11 +223,12 @@ img {
   }
 }
 
-.mob__menu__open .js-open-menu {
+.js-menu-container.is-open {
   display: block;
 }
 
 .mob__menu {
+  display: none;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -248,8 +250,8 @@ img {
   }
 }
 
-.mob__menu .js-menu-container {
-  display: block;
+.js-menu-container {
+  display: none;
 }
 
 .mob__menu__close {
@@ -258,7 +260,7 @@ img {
   margin-right: 0px;
 }
 
-.mob__menu__close .js-close-menu {
+.js-menu-container.is-close {
   display: block;
 }
 
@@ -582,6 +584,7 @@ img {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     gap: 30px;
+    padding-top: 94px;
   }
 }
 
@@ -765,6 +768,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     text-align: center;
     gap: 30px;
   }
