@@ -2,7 +2,8 @@
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    display: flex;
+    text-align: center;
+    // display: flex;
 }
 .footer__logo {
     font-family: 'Raleway', sans-serif;
@@ -85,15 +86,28 @@
 }
 .footer__box{
     display: inline-block;
+    text-align: center;
 }
 .footer__soc__box{
-    display: flex;
-    align-items: baseline;
+    // display: flex;
+    // align-items: baseline;
+    @include tablet{
+    //      display: flex;
+    // align-items: baseline;
+    }
 }
 .footer__soc{
+    margin: 60px auto;
     display: inline-block;
-    margin-right: 93px;
+    // margin-right: 93px;
+    // margin-left: 70px;
+    margin-right: 137px;
+    margin-left: 137px;
+    @include tablet{
+        margin-right: 73px;
     margin-left: 70px;
+    }
+
 }
 .footer__title{
     font-weight: 700;
@@ -103,4 +117,5 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+   text-align: center;
 }
