@@ -8,27 +8,23 @@
 
     @media screen and (min-width: 768px){
         flex-wrap: wrap;
-      
     }
    
     @media screen and (min-width: 1200px) {
         justify-content: center;
         align-items: center;
+        flex-wrap: nowrap;
     }
 
 }
 
 .client__items{
-
-@media screen  and (min-width: 768px) {
-    width: calc((100% - 2 * 30px) / 2);
+    width: calc((100% - 3 * 30px) / 2);
+@media screen  and (min-width: 768px) and (max-width: 1199px) {
+    width: calc((100% - 6 * 15px) / 3);
     margin: 15px;
 
  }
-
- @media screen and (min-width: 1200px) {
- 
-}
 
 }
 
@@ -47,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;

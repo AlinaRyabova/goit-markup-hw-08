@@ -403,21 +403,44 @@ img {
 }
 
 .portfolio__project__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   max-width: 100%;
   height: auto;
   list-style-type: none;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 30px;
+  margin: -15px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio__project__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__project__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .portfolio__list {
-  -ms-flex-preferred-size: calc((100% - 60px) / 3);
-      flex-basis: calc((100% - 60px) / 3);
+  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio__list {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__list {
+    width: calc((100% - 120px) / 3);
+  }
 }
 
 .portfolio__list :hover .portfolio__cover__text {
@@ -566,7 +589,7 @@ img {
   background: var(--primary-header-color);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .feature__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -592,12 +615,13 @@ img {
   list-style-type: none;
   width: 100%;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .feature__list__items {
     width: calc((100% - 60px) / 2);
     margin: 15px;
   }
 }
+
 .feature__title {
   font-style: normal;
   font-size: 14px;
@@ -772,6 +796,7 @@ img {
         flex-wrap: nowrap;
     text-align: center;
     gap: 30px;
+    margin: 15px;
   }
 }
 
@@ -907,15 +932,21 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
-@media screen and (min-width: 768px) {
+.client__items {
+  width: calc((100% - 90px) / 2);
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .client__items {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 90px) / 3);
     margin: 15px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .client__items:not(:last-child) {
     margin-right: 30px;
@@ -934,6 +965,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: auto;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color: #AFB1B8;
