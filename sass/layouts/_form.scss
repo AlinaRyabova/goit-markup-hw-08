@@ -60,4 +60,7 @@
     border-radius: 4px;
     border: none;
     margin:  20px auto;
+    @include desktop{
+        margin:  0px auto;
+    }
 }
