@@ -21,7 +21,9 @@
 }
 .contact__form{
     // display: flex;
-   
+   @include desktop{
+    display: flex;
+   }
 }
 .form{
     margin-right: 0px;

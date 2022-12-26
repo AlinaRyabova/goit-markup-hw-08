@@ -4,6 +4,9 @@
     padding-bottom: 60px;
     text-align: center;
     // display: flex;
+    @include desktop{
+        display: flex;
+    }
 }
 .footer__logo {
     font-family: 'Raleway', sans-serif;
@@ -95,16 +98,23 @@
     //      display: flex;
     // align-items: baseline;
     }
+    @include desktop{
+        display: flex;
+        align-items: baseline;
+    }
 }
 .footer__soc{
     margin: 60px auto;
     display: inline-block;
-    // margin-right: 93px;
-    // margin-left: 70px;
+   
     margin-right: 137px;
     margin-left: 137px;
     @include tablet{
         margin-right: 73px;
+    margin-left: 70px;
+    }
+    @include desktop{
+ margin-right: 93px;
     margin-left: 70px;
     }
 
