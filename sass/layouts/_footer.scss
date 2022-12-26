@@ -3,7 +3,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-   
+    display: flex;
+    // @media screen and (max-width: 1199px){
+    //     flex-wrap: wrap;
+    //     justify-content: space-around; 
+    // }
+
     @include desktop{
         display: flex;
     }
@@ -95,7 +100,9 @@
     // display: flex;
     // align-items: baseline;
     @include tablet{
-    //      display: flex;
+         display: flex;
+         flex-wrap: wrap;
+             justify-content: space-around;
     // align-items: baseline;
     }
     @include desktop{
@@ -104,14 +111,14 @@
     }
 }
 .footer__soc{
-    margin: 60px auto;
+    // margin: 60px auto;
     display: inline-block;
    
-    margin-right: 137px;
-    margin-left: 137px;
+    // margin-right: 137px;
+    // margin-left: 137px;
     @include tablet{
-        margin-right: 73px;
-    margin-left: 70px;
+    //     margin-right: 73px;
+    // margin-left: 70px;
     }
     @include desktop{
  margin-right: 93px;

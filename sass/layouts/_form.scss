@@ -27,13 +27,26 @@
 }
 .contact__form{
     // display: flex;
+@include tablet{
+
+}
+
    @include desktop{
     display: flex;
    }
 }
 .form{
-    margin-right: 0px;
+    @include tablet{
+        padding: 60px;
+    }
+    // margin-right: 0px;
+    // margin-left: auto;
+    @include desktop{
+ margin-right: 0px;
     margin-left: auto;
+    }
+
+
 }
 .contact__input:hover,
 .contact__input:focus{
