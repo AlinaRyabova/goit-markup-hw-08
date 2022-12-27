@@ -121,6 +121,13 @@
     }
     
   }
+  .contacts__list:not(:last-child){
+    @include tablet{
+        margin-bottom: 10px;
+    }
+    
+    
+  }
 
 .contacts__list:not(:last-child){
     @include desktop{
