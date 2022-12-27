@@ -122,9 +122,9 @@
     
   }
 
-.contacts__list:not(:last-child){
-    margin-right: 50px;
-  }
+// .contacts__list:not(:last-child){
+//     margin-right: 50px;
+//   }
 .contacts__list{
     @include tablet{
         display: flex;
