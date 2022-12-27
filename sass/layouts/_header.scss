@@ -45,12 +45,20 @@
         display: none;
     }
 }
+.novigation__content{
+    @include desktop{
+        display: flex;
+    }
+}
 
 .navigation__list{
-    display: flex;  
+    display: flex; 
+    @include desktop{
+        margin-left: 280px;
+    }
 }
 .navigation__list :not(:last-child) {
-    margin-right: 51px;
+    margin-right: 50px;
   }
 
 .navigation__text {
