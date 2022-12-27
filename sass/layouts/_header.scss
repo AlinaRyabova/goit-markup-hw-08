@@ -50,10 +50,14 @@
     }
 }
 .novigation__content{
+    @include mob{
         display: flex;
         justify-content: space-between; 
         align-items: center; 
         height: 60px;
+    }
+        
+       
 }
 
 .navigation__list{
