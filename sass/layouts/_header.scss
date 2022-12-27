@@ -33,12 +33,16 @@
     margin-left: auto;
 
     @include mob{
-        padding: 0px 15px;
-        margin: 0px auto;
+        // padding: 0px 15px;
+        // margin: 0px auto;
+        // // display: flex;
+        // flex-wrap: wrap;
+        // // align-items: center;
+        // justify-content: space-between;
         // display: flex;
-        flex-wrap: wrap;
-        // align-items: center;
-        justify-content: space-between;
+        // justify-content: space-between; 
+        // align-items: center; 
+        // height: 60px;
     }
 
     @media screen and (max-width: 767px){
@@ -46,9 +50,10 @@
     }
 }
 .novigation__content{
-    @include desktop{
         display: flex;
-    }
+        justify-content: space-between; 
+        align-items: center; 
+        height: 60px;
 }
 
 .navigation__list{
@@ -82,7 +87,7 @@
  }
 .contacts{
 @include tablet{
-    display: block;
+    display: flex;
 }
 
     @include desktop{
@@ -96,7 +101,7 @@
   }
 .contacts__list{
     @include tablet{
-        display: block;
+        display: flex;
     }
     @include desktop{
         display: flex;
