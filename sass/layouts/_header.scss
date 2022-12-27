@@ -48,14 +48,16 @@
     @media screen and (max-width: 767px){
         display: none;
     }
+    @include tablet{
+        margin: 0px;
+    }
 }
 .novigation__content{
-    @include mob{
         display: flex;
         justify-content: space-between; 
         align-items: center; 
         height: 60px;
-    }
+    
     @include tablet{
         display: flex;
         justify-content: space-between;

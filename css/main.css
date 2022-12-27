@@ -126,20 +126,23 @@ img {
     display: none;
   }
 }
-
-@media screen and (min-width: 480px) {
-  .novigation__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 60px;
+@media screen and (min-width: 768px) {
+  .navigation {
+    margin: 0px;
   }
+}
+
+.novigation__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
 }
 @media screen and (min-width: 768px) {
   .novigation__content {
