@@ -149,7 +149,7 @@
     color:  var(--primary-link-color);
 }
 }
-..contacts__text{
+.contacts__text{
     @include desktop{
       display: flex;
       padding-top: 32px;
