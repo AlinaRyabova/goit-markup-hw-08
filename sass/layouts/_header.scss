@@ -98,6 +98,7 @@
  }
 .contacts{
     display: none;
+    
 @include tablet{
     display: block;
     justify-content: space-between;
