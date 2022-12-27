@@ -58,6 +58,7 @@
     }
     @include tablet{
         height: 80px;
+        justify-content: space-between;
     }
         
        
@@ -94,7 +95,10 @@
  }
 .contacts{
 @include tablet{
-    display: flex;
+    display: block;
+    justify-content: space-between;
+
+    
 }
 
     @include desktop{
@@ -103,6 +107,13 @@
     }
 
  }
+ .contacts:not(:last-child){
+    @include tablet{
+        margin-bottom: 10px;
+    }
+    
+  }
+
 .contacts__list:not(:last-child){
     margin-right: 50px;
   }
@@ -135,6 +146,9 @@
     color:  var(--primary-link-color);
 }
 }
+
+
+
 .contacts__icons{
     margin-right: 10px;
     fill: currentColor;
