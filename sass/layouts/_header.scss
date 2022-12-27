@@ -95,9 +95,15 @@
     margin-right: 50px;
   }
 .contacts__list{
-    display: flex;
+    @include tablet{
+        display: block;
+    }
+    @include desktop{
+        display: flex;
     justify-content: center;
     align-items: center;
+    }
+    
 }
 .contacts__text{
     font-style: normal;
@@ -218,7 +224,8 @@
     gap: 20px;
 }
 .mob-content{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    // justify-content: center;
     height: 100%;
+
 }
