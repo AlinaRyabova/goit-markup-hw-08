@@ -57,8 +57,10 @@
         height: 60px;
     }
     @include tablet{
-        height: 80px;
+        display: flex;
         justify-content: space-between;
+        align-items: center;
+        height: 80px;
     }
         
        
@@ -67,10 +69,10 @@
 .navigation__list{
     display: flex; 
     @include desktop{
-        margin-left: 280px;
+        // margin-left: 280px;
     }
 }
-.navigation__list :not(:last-child) {
+.navigation__list:not(:last-child) {
     margin-right: 50px;
   }
 
