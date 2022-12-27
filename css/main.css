@@ -220,6 +220,11 @@ img {
     margin-bottom: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts__list:not(:last-child) {
+    margin-bottom: 0px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .contacts__list:not(:last-child) {
@@ -506,6 +511,14 @@ img {
         flex-wrap: nowrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .portfolio__btn__card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .portfolio__project__list {
   color: var(--second-header-color);
 }
