@@ -70,8 +70,9 @@
 
 .navigation__list{
     display: flex; 
+    gap: 50px;
     @include desktop{
-        // margin-left: 280px;
+       
     }
 }
 .navigation__list:not(:last-child) {
