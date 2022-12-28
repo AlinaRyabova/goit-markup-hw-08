@@ -229,6 +229,8 @@
     top: 0px;
     left: 0px;
     right: 0px;
+    overflow: hidden;
+    visibility: hidden;
   
     @media screen and (min-width: 768px){
         display: none;

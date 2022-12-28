@@ -288,18 +288,20 @@ img {
   fill: currentColor;
 }
 
-.current {
-  color: var(--primary-link-color);
-}
-.current::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background: #2196F3;
-  border-radius: 2px;
+@media screen and (min-width: 768px) {
+  .current {
+    color: var(--primary-link-color);
+  }
+  .current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background: #2196F3;
+    border-radius: 2px;
+  }
 }
 
 .mob__menu__open {
@@ -335,6 +337,8 @@ img {
   top: 0px;
   left: 0px;
   right: 0px;
+  overflow: hidden;
+  visibility: hidden;
 }
 @media screen and (min-width: 768px) {
   .mob__menu {
