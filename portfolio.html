@@ -18,15 +18,16 @@
 <body>
     <header class="header">
         <div class="container novigation__content">
-            <a href="./index.html" class="logo link"><span class="logo__text">Web</span>Studio</a>
+          
+          <a href="./index.html" class="logo link"><span class="logo__text">Web</span>Studio</a>
           <nav class="navigation">
               <!-- <a href="./index.html" class="logo link"><span class="logo__text">Web</span>Studio</a> -->
               <ul class="navigation__list list">
-                  <li class="navigation__link"><a class="navigation__text link" href="./index.html">Студія</a></li>
-                  <li class="navigation__link"><a class="navigation__text link current" href="">Портфоліо</a></li>
+                  <li class="navigation__link"><a class="navigation__text link current" href="">Студія</a></li>
+                  <li class="navigation__link"><a class="navigation__text link" href="./index.html">Портфоліо</a></li>
                   <li class="navigation__link"><a class="navigation__text link" href="">Контакти</a></li>
               </ul>
-            </nav>
+          </nav>
               <ul class="contacts list">
                   <li class="contacts__list"><a class="contacts__text link" href="mailto:info@devstudio.com"><svg width="16" height="12" class="contacts__icons">
                       <use href="./images/icons.svg#icon-envelope"></use>
@@ -36,8 +37,42 @@
                   </svg>+38 096 111 11 11</a></li>
               </ul>
           
-          <button type="button" class="mob__menu__open js-open-menu" ><svg width="24" height="16"class="menu__open__icon current"><use href="./images/icons.svg#icon-menu_24px"></use></svg></button>
+      
+          <button type="button" class="mob__menu__open js-open-menu"><svg width="24" height="16"class="menu__open__icon"><use href="./images/icons.svg#icon-menu_24px"></use></svg></button>
+      
+         <div class="mob__menu js-menu-container" >
+          <div class="container">
+          <button type="button" class="mob__menu__close js-close-menu" ><svg width="24" height="16"class="menu__close__icon"><use href="./images/icons.svg#icon-close_24px"></use></svg></button>
+  <div>
+      <div class="mob-content">
+      <ul class="mob__navigation__list list">
+          <li class="mob__navigation__link"><a class="mob__navigation__text link current" href="">Студія</a></li>
+          <li class="mob__navigation__link"><a class="mob__navigation__text link" href="./index.html">Портфоліо</a></li>
+          <li class="mob__navigation__link"><a class="mob__navigation__text link" href="">Контакти</a></li>
+      </ul>
+  </div>
+  <div class="mob-content">
+      <ul class="mob__contacts list">
          
+          <li class="mob__contacts__list"><a class="mob__contacts__email link" href="mailto:info@devstudio.com"><svg width="16" height="12" class="contacts__icons">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+          </svg>+38 096 111 11 11</a></li>
+          <li class="mob__contacts__list"><a class="mob__contacts__tell link" href="tel:+380961111111"><svg width="10" height="16" class="contacts__icons">
+              <use href="./images/icons.svg#icon-envelope"></use>
+          </svg>info@devstudio.com</a></li>
+  
+      </ul>
+  </div>
+      <ul class="mob__soc list">
+          <li class="mob__soc__list"><a class="mob__soc__text link" href="">Instagram</a></li>
+          <li class="mob__soc__list"><a class="mob__soc__text link" href="">Twitter</a></li>
+          <li class="mob__soc__list"><a class="mob__soc__text link" href="">Facebook</a></li>
+          <li class="mob__soc__list"><a class="mob__soc__text link" href="">LinkedIn</a></li>
+      </ul>
+  </div>
+  </div>
+         </div>
+      </div>
       </header>
          <section class="portfolio section">
             <div class="container">
