@@ -6,17 +6,16 @@
     font-size: 24px;
     line-height: 1.16;
     color: var(--second-header-color);
-    // margin-right: 264px;
     padding-top: 16px;
     padding-bottom: 16px;
 
     @include tablet{
-        // margin-right: 88px;
         padding-top: 26px;
        padding-bottom: 26px;
     }
 
 @include desktop{
+    font-size: 26px;
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -30,20 +29,6 @@
 .navigation{
     display: flex;
     align-items:  center;
-    // margin-left: auto;
-
-    @include mob{
-        // padding: 0px 15px;
-        // margin: 0px auto;
-        // // display: flex;
-        // flex-wrap: wrap;
-        // // align-items: center;
-        // justify-content: space-between;
-        // display: flex;
-        // justify-content: space-between; 
-        // align-items: center; 
-        // height: 60px;
-    }
 
     @media screen and (max-width: 767px){
         display: none;
@@ -239,10 +224,6 @@
         display: none;
     }
 }
-// .mob__menu:hover,
-// .mob__menu:focus{
-//     fill: var(--primary-link-color);
-// }
 
 
 .js-menu-container{
