@@ -209,7 +209,7 @@
         border-color: transparent;
         &:hover,
         &:focus{
-            color: var(--primary-link-color);
+            fill: var(--primary-link-color);
         }
 
     @media screen and (min-width: 768px){
@@ -239,6 +239,12 @@
         display: none;
     }
 }
+// .mob__menu:hover,
+// .mob__menu:focus{
+//     fill: var(--primary-link-color);
+// }
+
+
 .js-menu-container{
     display: none;
 }
