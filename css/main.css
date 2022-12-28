@@ -538,6 +538,7 @@ img {
   max-width: 100%;
   height: auto;
   list-style-type: none;
+  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .portfolio__project__list {
@@ -568,6 +569,7 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio__list {
     width: calc((100% - 30px) / 2);
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -615,6 +617,16 @@ img {
 }
 .content__portfolio:hover, .content__portfolio:focus {
   fill: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .content__portfolio {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .content__portfolio {
+    padding: 20px 24px;
+  }
 }
 
 .portfolio__link {
