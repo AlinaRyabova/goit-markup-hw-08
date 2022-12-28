@@ -141,5 +141,8 @@
     @include mob{
         margin-top: 60px;
     }
+    @include tablet{
+        margin-top: 0px;
+    }
     
 }
