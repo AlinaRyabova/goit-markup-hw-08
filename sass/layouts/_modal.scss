@@ -41,6 +41,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &:hover,
+    &:focus{
+        color: var(--primary-link-color);
+    }
 }
 .is-hidden{
     visibility: hidden;

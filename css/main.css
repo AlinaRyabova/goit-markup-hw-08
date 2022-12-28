@@ -1515,6 +1515,9 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.modal-close:hover, .modal-close:focus {
+  color: var(--primary-link-color);
+}
 
 .is-hidden {
   visibility: hidden;
