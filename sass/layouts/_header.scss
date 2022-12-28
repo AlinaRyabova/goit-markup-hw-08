@@ -201,9 +201,14 @@
         right: 10px;
         width: 40px;
         height: 40px;
+        background: #212121;
         background-color: transparent;
         border-color: transparent;
-   
+        &:hover,
+        &:focus{
+            color: var(--primary-link-color);
+        }
+
     @media screen and (min-width: 768px){
         display: none;
     }

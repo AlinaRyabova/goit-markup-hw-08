@@ -307,8 +307,12 @@ img {
   right: 10px;
   width: 40px;
   height: 40px;
+  background: #212121;
   background-color: transparent;
   border-color: transparent;
+}
+.mob__menu__open:hover, .mob__menu__open:focus {
+  color: var(--primary-link-color);
 }
 @media screen and (min-width: 768px) {
   .mob__menu__open {
