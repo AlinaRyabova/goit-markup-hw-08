@@ -226,7 +226,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    padding: 48px 0;
+    // padding: 48px 0;
     & .container{
         display: block;
         height: 100%;
@@ -308,11 +308,11 @@
     border-right: 1px solid rgba(33,33,33,0.2);
     padding-right: 10px;
 }
-// .mob__modale{
-//     padding: 48px 0;
-//     display: flex;
-//     flex-direction: column;
-//     height: 100vh;
-//     justify-content: space-between;
+.mob__modale{
+    padding: 48px 0;
+    // display: flex;
+    // flex-direction: column;
+    // height: 100vh;
+    // justify-content: space-between;
 
-// }
+}
