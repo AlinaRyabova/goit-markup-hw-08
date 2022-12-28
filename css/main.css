@@ -392,7 +392,7 @@ img {
   margin-bottom: 32px;
 }
 
-.mob__contacts__tell {
+.mob__contacts__email {
   color: #757575;
   font-size: 24px;
   font-weight: 500;
@@ -400,7 +400,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.mob__contacts__email {
+.mob__contacts__tell {
   font-size: 34px;
   font-weight: 500;
   line-height: 1.1764705882;
