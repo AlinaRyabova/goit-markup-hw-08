@@ -371,7 +371,6 @@ img {
   font-weight: 500;
   line-height: 1.175;
   letter-spacing: 0.02em;
-  padding-bottom: 64px;
 }
 
 .mob__navigation__link:not(:last-child) {

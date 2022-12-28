@@ -241,8 +241,6 @@
 .mob__menu__close {
     position: absolute;
     display: block;
-    // margin-left: auto;
-    // margin-right: 0px;
     top: 10px;
     right: 10px;
     width: 40px;
@@ -253,15 +251,11 @@
 .js-menu-container.is-close {
     display: block;
 } 
-// .mob__navigation__link {
-//     color: #212121;
-//     @include font (40, 500, 47, 0.02);
-// }
 
 .mob__navigation__text{
         color: #212121;
     @include font (40, 500, 47, 0.02);
-    padding-bottom: 64px;
+    // padding-bottom: 64px;
 }
 
 
