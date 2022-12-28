@@ -425,11 +425,6 @@ img {
   gap: 20px;
 }
 
-.mob-content {
-  display: inline-block;
-  height: 100%;
-}
-
 .mob__soc__list:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   padding-right: 10px;
@@ -437,6 +432,16 @@ img {
 
 .mob__modale {
   padding: 48px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .portfolio__btn__link {
