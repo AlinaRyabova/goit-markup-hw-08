@@ -326,6 +326,7 @@ img {
   display: block;
   overflow: scroll;
   visibility: visible;
+  z-index: 10;
 }
 
 .mob__menu {
