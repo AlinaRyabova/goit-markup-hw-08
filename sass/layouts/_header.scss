@@ -252,6 +252,11 @@
 .mob__navigation__text{
         color: #212121;
     @include font (40, 500, 47, 0.02);
+
+    &:hover,
+    &:focus{
+        color: var(--primary-link-color);
+    }
 }
 
 
@@ -261,10 +266,7 @@
     margin-bottom: 32px;
   }
 
-.mob__navigation__list:hover,
-.mob__navigation__list:focus{
-    fill: var(--primary-link-color);
-}
+
 .mob__contacts__list{
     display: block;
     margin-bottom: 32px;

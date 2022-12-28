@@ -379,14 +379,12 @@ img {
   line-height: 1.175;
   letter-spacing: 0.02em;
 }
+.mob__navigation__text:hover, .mob__navigation__text:focus {
+  color: var(--primary-link-color);
+}
 
 .mob__navigation__link:not(:last-child) {
   margin-bottom: 32px;
-}
-
-.mob__navigation__list:hover,
-.mob__navigation__list:focus {
-  fill: var(--primary-link-color);
 }
 
 .mob__contacts__list {
