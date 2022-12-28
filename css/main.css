@@ -364,6 +364,9 @@ img {
   background-color: transparent;
   border-color: transparent;
 }
+.mob__menu__close:hover, .mob__menu__close:focus {
+  fill: var(--primary-link-color);
+}
 
 .js-menu-container.is-close {
   display: block;
@@ -381,8 +384,9 @@ img {
   margin-bottom: 32px;
 }
 
-.mob__navigation__link .current {
-  color: #2196F3;
+.mob__navigation__list:hover,
+.mob__navigation__list:focus {
+  fill: var(--primary-link-color);
 }
 
 .mob__contacts__list {

@@ -238,7 +238,12 @@
     width: 40px;
     height: 40px;
     background-color: transparent;
-    border-color: transparent
+    border-color: transparent;
+    &:hover,
+    &:focus{
+        fill: var(--primary-link-color);
+    }
+
 }
 .js-menu-container.is-close {
     display: block;
@@ -247,7 +252,6 @@
 .mob__navigation__text{
         color: #212121;
     @include font (40, 500, 47, 0.02);
-    // padding-bottom: 64px;
 }
 
 
@@ -257,8 +261,9 @@
     margin-bottom: 32px;
   }
 
-.mob__navigation__link .current {
-    color: #2196F3;
+.mob__navigation__list:hover,
+.mob__navigation__list:focus{
+    fill: var(--primary-link-color);
 }
 .mob__contacts__list{
     display: block;
