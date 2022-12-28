@@ -433,6 +433,10 @@ img {
   padding-right: 10px;
 }
 
+.mob__modale {
+  padding: 48px 40px;
+}
+
 .portfolio__btn__link {
   list-style-type: none;
   font-family: inherit;
