@@ -218,6 +218,8 @@
 }
 .js-menu-container.is-open{
     display: block;
+    overflow: scroll;
+    visibility: visible;
 }
 .mob__menu {
     display: none;
