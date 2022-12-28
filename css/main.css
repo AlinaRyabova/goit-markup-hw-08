@@ -1516,7 +1516,7 @@ img {
           justify-content: center;
 }
 .modal-close:hover, .modal-close:focus {
-  fill: var(--primary-link-color);
+  fill: #2196F3;
 }
 
 .is-hidden {
