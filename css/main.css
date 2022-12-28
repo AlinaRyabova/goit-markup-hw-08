@@ -1172,11 +1172,16 @@ img {
 
 .footer__logo {
   font-family: "Raleway", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.19;
   color: var(--primary-header-color);
   margin-bottom: 20px;
   display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  .footer__logo {
+    font-size: 26px;
+  }
 }
 
 .footer__accent__text {
