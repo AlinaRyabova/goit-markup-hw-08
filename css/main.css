@@ -1118,6 +1118,8 @@ img {
 }
 
 .client__items {
+  width: 210px;
+  height: 92px;
   margin: 15px;
   width: calc((100% - 90px) / 2);
 }
