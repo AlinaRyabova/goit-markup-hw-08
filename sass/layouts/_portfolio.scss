@@ -82,11 +82,9 @@
     color: var(--accent-color);
 }
 .portfolio__project__list{
-    // display: flex;
     max-width: 100%;
     height: auto;
     list-style-type: none;
-    // flex-wrap: wrap;
     gap: 30px;
    
    
@@ -97,7 +95,6 @@
         
     }
     @include desktop{
-        // margin: 15px;
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
