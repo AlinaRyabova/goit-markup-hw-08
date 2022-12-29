@@ -29,10 +29,10 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/header\ img_pc_1x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/pc_designer_1x.jpg');
      @include retina{
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/header\ img_mob_2x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/pc_designer_2x.jpg');
      }
 
     }
