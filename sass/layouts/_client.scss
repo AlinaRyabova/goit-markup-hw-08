@@ -19,8 +19,6 @@
 }
 
 .client__items{
-    width: 210px;
-    height: 92px;
     margin: 15px;
     width: calc((100% - 3 * 30px) / 2);
 
@@ -50,6 +48,8 @@
     &:hover{
     border-color: #2196F3;
 }
+    width: 210px;
+    height: 92px;
 @include tablet{
     width: 226px;
     height: 92px;
