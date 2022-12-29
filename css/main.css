@@ -976,7 +976,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .team__list__img {
-    width: 450px;
+    width: auto;
     margin: 15px 30px;
   }
 }
