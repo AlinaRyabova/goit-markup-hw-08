@@ -1184,8 +1184,6 @@ img {
 
 .footer {
   background: #2F303A;
-  padding-top: 60px;
-  padding-bottom: 60px;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
@@ -1193,6 +1191,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -1395,7 +1395,6 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 20px;
-  margin-top: 60px;
 }
 
 .contact__form__item {

@@ -1,12 +1,15 @@
 .footer {
     background: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
     text-align: center;
 
     @include desktop{
         display: flex;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
+    
 }
 .footer__logo {
     font-family: 'Raleway', sans-serif;
