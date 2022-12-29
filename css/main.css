@@ -963,14 +963,11 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .team__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     text-align: center;
     gap: 30px;
-    margin: 15px;
   }
 }
 

@@ -26,11 +26,14 @@
     }
    
     @include desktop {
-        display: flex;
-        flex-wrap: nowrap;
-        text-align: center;
-        gap: 30px;
-        margin: 15px;
+        // display: flex;
+        // flex-wrap: nowrap;
+        // text-align: center;
+        // gap: 30px;
+        // margin: 15px;
+        display: inline-flex;
+    text-align: center;
+    gap: 30px;
     }
 }
 
