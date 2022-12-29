@@ -33,7 +33,7 @@
 
 
 .client__link{
-    width: 170px;
+    width: 210px;
     height: 92px;
     display: flex;
     justify-content: center;
@@ -51,7 +51,20 @@
     &:hover{
     border-color: #2196F3;
 }
+@include tablet{
+    width: 226px;
+    height: 92px;
 }
+@include desktop{
+    width: 170px;
+    height: 92px;
+}
+
+}
+
+
+
+
 .client__title{
     font-size: 28px;
     line-height: 1.14;

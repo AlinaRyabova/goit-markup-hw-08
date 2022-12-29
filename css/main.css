@@ -1126,7 +1126,7 @@ img {
 }
 
 .client__link {
-  width: 170px;
+  width: 210px;
   height: 92px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1150,6 +1150,18 @@ img {
 }
 .client__link:hover {
   border-color: #2196F3;
+}
+@media screen and (min-width: 768px) {
+  .client__link {
+    width: 226px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client__link {
+    width: 170px;
+    height: 92px;
+  }
 }
 
 .client__title {
