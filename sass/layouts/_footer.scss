@@ -1,7 +1,7 @@
 .footer {
     background: #2F303A;
         text-align: center;
-
+        padding: 60px 0;
     @include desktop{
         display: flex;
         padding-top: 60px;
@@ -16,7 +16,6 @@
     color: var(--primary-header-color);
     margin-bottom: 20px;
     display: inline-block;
-
     @include desktop{
         font-size: 26px;
     }
