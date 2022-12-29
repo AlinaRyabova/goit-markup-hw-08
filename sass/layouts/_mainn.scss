@@ -3,10 +3,10 @@
     padding-top: 118px;
     padding-bottom: 128px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/header\ img_mob_1x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/header_mob_img_1x.jpg');
      @include retina{
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/header\ img_mob_2x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/header_mob_img_2x.jpg');
      }
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,10 +17,10 @@
 
     @include tablet{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/header_tab_1x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/header_tab_img_1x.jpg');
     @include retina{
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/header_tab_2x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/header_tab_img_2x.jpg');
      }
     }
 
@@ -31,7 +31,7 @@
      rgba(47, 48, 58, 0.4)),url('..//../images/header\ img_pc_1x.jpg');
      @include retina{
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)),url('..//../images/Header\ img_mob_2x.jpg');
+     rgba(47, 48, 58, 0.4)),url('..//../images/header\ img_mob_2x.jpg');
      }
 
     }
