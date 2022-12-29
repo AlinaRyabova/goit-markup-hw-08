@@ -36,10 +36,6 @@
 }
 
 .team__list__img{
-    @include mob{
-        width: 450px;
-        margin: 15px 30px;
-    }
     
     @include tablet{
         width: 354px;
