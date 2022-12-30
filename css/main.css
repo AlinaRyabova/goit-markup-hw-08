@@ -394,10 +394,18 @@ img {
 
 .mob__contacts__email {
   color: #757575;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 1.1666666667;
+  line-height: 1.2727272727;
   letter-spacing: 0.02em;
+}
+@media screen and (min-width: 1200px) {
+  .mob__contacts__email {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1666666667;
+    letter-spacing: 0.02em;
+  }
 }
 
 .mob__contacts__tell {
@@ -425,9 +433,9 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .mob__soc__text {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.8333333333;
+    line-height: 1.2222222222;
     letter-spacing: 0.02em;
   }
 }

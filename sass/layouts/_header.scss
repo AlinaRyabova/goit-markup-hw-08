@@ -268,7 +268,10 @@
 }
 .mob__contacts__email{
     color: #757575;
-    @include font (24, 500, 28, 0.02);
+    @include font (22, 500, 28, 0.02);
+    @include desktop{
+        @include font (24, 500, 28, 0.02);
+    }
 }
 .mob__contacts__tell{
     @include font (26, 500, 40, 0.02);
@@ -284,7 +287,7 @@
 
 
     @include desktop {
-        @include font (12, 500, 22, 0.02);
+        @include font (18, 500, 22, 0.02);
     }
 }
 .mob__soc{
