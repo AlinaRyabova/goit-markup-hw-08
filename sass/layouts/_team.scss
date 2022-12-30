@@ -33,7 +33,8 @@
         // text-align: center;
         // gap: 30px;
         // margin: 15px;
-        display: inline-flex;
+        display: flex;
+        flex-wrap: nowrap;
     text-align: center;
     gap: 30px;
     }

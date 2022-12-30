@@ -964,9 +964,11 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .team__list {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     text-align: center;
     gap: 30px;
   }
