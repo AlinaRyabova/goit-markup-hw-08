@@ -1018,7 +1018,7 @@ img {
 @media screen and (min-width: 768px) {
   .team__list__img {
     width: 354px;
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
