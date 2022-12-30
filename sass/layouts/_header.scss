@@ -100,12 +100,7 @@
     }
 
  }
- .contacts:not(:last-child){
-    @include desktop{
-        margin-bottom: 10px;
-    }
-    
-  }
+
   .contacts__list:not(:last-child){
     @media screen and (max-width: 767px){
         margin-bottom: 10px;

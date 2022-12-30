@@ -210,12 +210,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .contacts:not(:last-child) {
-    margin-bottom: 10px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .contacts__list:not(:last-child) {
     margin-bottom: 10px;
