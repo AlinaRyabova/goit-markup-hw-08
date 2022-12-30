@@ -273,10 +273,19 @@
 .mob__contacts__tell{
     @include font (26, 500, 40, 0.02);
     color: #2196F3;
+    @include desktop {
+        @include font (34, 500, 40, 0.02);
+    }
+
 }
 .mob__soc__text {
     @include font (12, 500, 22, 0.02);
     color: #2196F3;
+
+
+    @include desktop {
+        @include font (12, 500, 22, 0.02);
+    }
 }
 .mob__soc{
     display: flex;

@@ -407,6 +407,14 @@ img {
   letter-spacing: 0.02em;
   color: #2196F3;
 }
+@media screen and (min-width: 1200px) {
+  .mob__contacts__tell {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.1764705882;
+    letter-spacing: 0.02em;
+  }
+}
 
 .mob__soc__text {
   font-size: 12px;
@@ -414,6 +422,14 @@ img {
   line-height: 1.8333333333;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (min-width: 1200px) {
+  .mob__soc__text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.8333333333;
+    letter-spacing: 0.02em;
+  }
 }
 
 .mob__soc {
