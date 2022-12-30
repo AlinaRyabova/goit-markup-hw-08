@@ -26,6 +26,7 @@
     @include desktop{
         width: 358px;
         height: 50px;
+        margin-right: 12px;
     }
 
 }
@@ -33,7 +34,7 @@
     
    @include desktop{
     display: flex;
-    margin-right: 12px;
+    
    }
 }
 .form{
@@ -81,5 +82,6 @@
     margin-top: 20px;
     @include desktop{
         margin:  0px auto;
+
     }
 }
