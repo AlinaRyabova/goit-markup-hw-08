@@ -51,7 +51,7 @@
     margin-right: auto;
     @include desktop{
     margin-bottom: 30px;
-    width: 696px;
+    max-width: 696px;
     font-size: 44px;
     line-height: 1.36;
     }
