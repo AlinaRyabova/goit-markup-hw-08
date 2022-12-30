@@ -21,8 +21,7 @@
     @include desktop{
          display: flex;
          flex-wrap: nowrap;
-         gap: 30px;
-         
+         margin: -15px;
     }
 }
 .feature__list__items{

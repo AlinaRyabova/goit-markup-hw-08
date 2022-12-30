@@ -804,7 +804,7 @@ img {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    gap: 30px;
+    margin: -15px;
   }
 }
 
