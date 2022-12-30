@@ -22,6 +22,10 @@
     max-width: 450px;
     width: 100%;
     padding: 15px;
+    @include mob{
+        width: 450px;
+        height: 50px;
+    }
 
     @include desktop{
         width: 358px;
