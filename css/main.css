@@ -449,6 +449,10 @@ img {
           align-items: center;
 }
 
+.mob__soc__list:not(:first-child) {
+  padding-left: 10px;
+}
+
 .mob__soc__list:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   padding-right: 10px;
