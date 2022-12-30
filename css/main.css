@@ -401,17 +401,17 @@ img {
 }
 
 .mob__contacts__tell {
-  font-size: 34px;
+  font-size: 26px;
   font-weight: 500;
-  line-height: 1.1764705882;
+  line-height: 1.5384615385;
   letter-spacing: 0.02em;
   color: #2196F3;
 }
 
 .mob__soc__text {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 1.2222222222;
+  line-height: 1.8333333333;
   letter-spacing: 0.02em;
   color: #2196F3;
 }
