@@ -269,26 +269,30 @@
 .mob__contacts__email{
     color: #757575;
     @include font (22, 500, 28, 0.02);
-    @include desktop{
+
+    @media screen and (max-width: 767px) {
         @include font (24, 500, 28, 0.02);
     }
+    
 }
 .mob__contacts__tell{
     @include font (26, 500, 40, 0.02);
     color: #2196F3;
-    @include desktop {
+
+
+    @media screen and (max-width: 767px) {
         @include font (34, 500, 40, 0.02);
     }
-
+    
 }
 .mob__soc__text {
     @include font (12, 500, 22, 0.02);
     color: #2196F3;
 
-
-    @include desktop {
+    @media screen and (max-width: 767px) {
         @include font (18, 500, 22, 0.02);
     }
+   
 }
 .mob__soc{
     display: flex;
