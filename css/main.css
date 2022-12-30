@@ -752,8 +752,6 @@ img {
 
 .feature {
   margin-top: 0px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   background: var(--primary-header-color);
 }
 
