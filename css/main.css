@@ -755,6 +755,9 @@ img {
   background: var(--primary-header-color);
 }
 
+.feature__list {
+  margin: -15px;
+}
 @media screen and (min-width: 768px) {
   .feature__list {
     display: -webkit-box;
