@@ -944,6 +944,9 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 @media screen and (min-width: 768px) {
