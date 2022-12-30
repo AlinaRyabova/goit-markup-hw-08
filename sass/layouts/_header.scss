@@ -270,7 +270,7 @@
     color: #757575;
     @include font (22, 500, 28, 0.02);
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 480px) {
         @include font (24, 500, 28, 0.02);
     }
     
@@ -280,7 +280,7 @@
     color: #2196F3;
 
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 480px) {
         @include font (34, 500, 40, 0.02);
     }
     
@@ -289,7 +289,7 @@
     @include font (12, 500, 22, 0.02);
     color: #2196F3;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 480px) {
         @include font (18, 500, 22, 0.02);
     }
    
