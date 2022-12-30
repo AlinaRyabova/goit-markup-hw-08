@@ -5,6 +5,8 @@
 } 
 .feature__list{
    margin: -15px;
+   display: flex;
+   flex-direction: column;
     @include tablet{
         display: flex;
         flex-wrap: wrap;
