@@ -4,7 +4,7 @@
     background: var(--primary-header-color);
 } 
 .feature__list{
-
+   margin: -15px;
     @include tablet{
         display: flex;
         flex-wrap: wrap;
