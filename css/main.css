@@ -781,6 +781,7 @@ img {
 .feature__list__items {
   list-style-type: none;
   width: 100%;
+  margin: 15px;
 }
 @media screen and (min-width: 768px) {
   .feature__list__items {
