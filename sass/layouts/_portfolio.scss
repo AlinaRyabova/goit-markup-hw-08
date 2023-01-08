@@ -150,7 +150,8 @@
     fill: #FFFFFF;
 }
 @include tablet{
-    padding: 0px;
+    padding: 20px 24px;
+    white-space: nowrap;
 }
 @include desktop{
     padding: 20px 24px;
